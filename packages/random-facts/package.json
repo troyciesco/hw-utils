@@ -1,0 +1,39 @@
+{
+  "name": "@hw-utils/random-facts",
+  "version": "1.0.0",
+  "description": "Random dinosaur facts generator",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "eslint src --ext .ts",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "dinosaur",
+    "facts",
+    "random",
+    "utility"
+  ],
+  "author": "Hedgewizard.dev",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "vitest": "^1.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hedgewizard-dev/hw-utils.git",
+    "directory": "packages/random-facts"
+  },
+  "bugs": {
+    "url": "https://github.com/hedgewizard-dev/hw-utils/issues"
+  },
+  "homepage": "https://github.com/hedgewizard-dev/hw-utils/tree/main/packages/random-facts#readme"
+}
