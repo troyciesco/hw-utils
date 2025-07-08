@@ -32,9 +32,9 @@
 - [x] 4.2 release workflow file (do not run it)
 
 ## 5 Docs & Badges
-- [ ] 5.1 Root README: overview, monorepo diagram, usage snippet
-- [ ] 5.2 Add build & coverage badge placeholders
+- [x] 5.1 Root README: overview, monorepo diagram, usage snippet
+- [x] 5.2 Add build & coverage badge placeholders
 
 ## 6 Publish & Demo — **DEFERRED**
-- [ ] 6.1 Prepare `npm publish` command for `@hw-utils/random-facts` (do not run)
+- [ ] 6.1 Prepare `lerna publish` command for `@hw-utils/random-facts` (do not run). should be `yarn ship` in package.json
 - [ ] 6.2 Add `examples/quick-demo.ts` logging a random fact 
