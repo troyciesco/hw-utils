@@ -5,9 +5,9 @@
 
 ## 1 Repo scaffold
 - [x] 1.1 Initialise new git repo **hw-utils**
-- [ ] 1.2 Add MIT LICENSE and `.gitignore`
-- [ ] 1.3 Add root `package.json`, `lerna.json`, `.npmrc`, `README.md`
-- [ ] 1.4 Enable Yarn Workspaces + Lerna (independent mode)
+- [x] 1.2 Add MIT LICENSE and `.gitignore`
+- [x] 1.3 Add root `package.json`, `lerna.json`, `.npmrc`, `README.md`
+- [x] 1.4 Enable Yarn Workspaces + Lerna (independent mode)
 
 ## 2 Package `@hw-utils/random-facts`
 - [ ] 2.1 Create `packages/random-facts/`
