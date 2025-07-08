@@ -36,5 +36,5 @@
 - [x] 5.2 Add build & coverage badge placeholders
 
 ## 6 Publish & Demo — **DEFERRED**
-- [ ] 6.1 Prepare `lerna publish` command for `@hw-utils/random-facts` (do not run). should be `yarn ship` in package.json
-- [ ] 6.2 Add `examples/quick-demo.ts` logging a random fact 
+- [x] 6.1 Prepare `lerna publish` command for `@hw-utils/random-facts` (do not run). should be `yarn ship` in package.json
+- [x] 6.2 Add `examples/quick-demo.ts` logging a random fact 
