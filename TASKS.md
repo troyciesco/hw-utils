@@ -23,13 +23,13 @@
 - [x] 2.6 Add `README.md` for the package
 
 ## 3 Tooling & Quality
-- [ ] 3.1 Add ESLint (airbnb-base) + Prettier + lint-staged
-- [ ] 3.2 Add Vitest config at root + TypeScript
-- [ ] 3.3 Add `.editorconfig`
+- [x] 3.1 Add ESLint (airbnb-base) + Prettier + lint-staged
+- [x] 3.2 Add Vitest config at root + TypeScript
+- [x] 3.3 Add `.editorconfig`
 
 ## 4 Automation
 - [ ] 4.1 GitHub Actions CI: install, lint, test
-- [ ] 4.2 (Optional) release workflow file (do not run it)
+- [ ] 4.2 release workflow file (do not run it)
 
 ## 5 Docs & Badges
 - [ ] 5.1 Root README: overview, monorepo diagram, usage snippet
