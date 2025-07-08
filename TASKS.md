@@ -28,8 +28,8 @@
 - [x] 3.3 Add `.editorconfig`
 
 ## 4 Automation
-- [ ] 4.1 GitHub Actions CI: install, lint, test
-- [ ] 4.2 release workflow file (do not run it)
+- [x] 4.1 GitHub Actions CI: install, lint, test
+- [x] 4.2 release workflow file (do not run it)
 
 ## 5 Docs & Badges
 - [ ] 5.1 Root README: overview, monorepo diagram, usage snippet
