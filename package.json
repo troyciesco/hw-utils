@@ -18,7 +18,8 @@
     "clean": "lerna clean",
     "setup": "yarn install && yarn bootstrap",
     "prepare": "husky install",
-    "ship": "lerna publish"
+    "ship": "lerna publish",
+    "demo": "ts-node examples/quick-demo.ts"
   },
   "devDependencies": {
     "@types/node": "^20.0.0",
@@ -33,6 +34,7 @@
     "lerna": "6.6.2",
     "lint-staged": "^15.0.0",
     "prettier": "^3.0.0",
+    "ts-node": "^10.0.0",
     "typescript": "^5.0.0",
     "vitest": "^1.0.0"
   },

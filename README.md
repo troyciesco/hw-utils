@@ -42,6 +42,24 @@ function displayRandomFact() {
 }
 ```
 
+## 🎮 Try the Demo
+
+Experience the package in action with our interactive demo:
+
+```bash
+# Clone the repository
+git clone https://github.com/hedgewizard-dev/hw-utils.git
+cd hw-utils
+
+# Install dependencies
+yarn setup
+
+# Run the demo
+yarn demo
+```
+
+The demo will display multiple random dinosaur facts and showcase the package functionality.
+
 ## 🚀 Getting Started
 
 ### Prerequisites
@@ -74,6 +92,9 @@ yarn build
 
 # Clean node_modules across all packages
 yarn clean
+
+# Run demo script
+yarn demo
 ```
 
 ## 🏗️ Monorepo Architecture
@@ -94,7 +115,8 @@ hw-utils/
 │       ├── __tests__/         # Vitest tests
 │       ├── package.json       # Package configuration
 │       └── README.md          # Package documentation
-├── examples/                  # Usage examples (coming soon)
+├── examples/                  # Usage examples and demos
+│   └── quick-demo.ts         # Demo script for random-facts
 ├── .husky/                    # Git hooks
 ├── package.json              # Root package configuration
 ├── lerna.json                # Lerna configuration
