@@ -15,12 +15,12 @@
 - [x] 1.4 Enable Yarn Workspaces + Lerna (independent mode)
 
 ## 2 Package `@hw-utils/random-facts`
-- [ ] 2.1 Create `packages/random-facts/`
-- [ ] 2.2 Add package-level `package.json`
-- [ ] 2.3 Implement `src/index.ts` exporting `getFact()`
-- [ ] 2.4 Add `src/facts.ts` with **10** dinosaur facts
-- [ ] 2.5 Write Vitest unit tests
-- [ ] 2.6 Add `README.md` for the package
+- [x] 2.1 Create `packages/random-facts/`
+- [x] 2.2 Add package-level `package.json`
+- [x] 2.3 Implement `src/index.ts` exporting `getFact()`
+- [x] 2.4 Add `src/facts.ts` with **10** dinosaur facts
+- [x] 2.5 Write Vitest unit tests
+- [x] 2.6 Add `README.md` for the package
 
 ## 3 Tooling & Quality
 - [ ] 3.1 Add ESLint (airbnb-base) + Prettier + lint-staged
