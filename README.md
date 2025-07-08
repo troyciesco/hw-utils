@@ -1,8 +1,8 @@
 # HW-Utils
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Build Status](https://github.com/hedgewizard-dev/hw-utils/workflows/CI/badge.svg)](https://github.com/hedgewizard-dev/hw-utils/actions)
-[![Coverage Status](https://codecov.io/gh/hedgewizard-dev/hw-utils/branch/main/graph/badge.svg)](https://codecov.io/gh/hedgewizard-dev/hw-utils)
+[![Build Status](https://github.com/troyciesco/hw-utils/workflows/CI/badge.svg)](https://github.com/troyciesco/hw-utils/actions)
+[![Coverage Status](https://codecov.io/gh/troyciesco/hw-utils/branch/main/graph/badge.svg)](https://codecov.io/gh/troyciesco/hw-utils)
 [![Node.js](https://img.shields.io/badge/Node.js-%3E%3D18.0.0-brightgreen)](https://nodejs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-%3E%3D5.0.0-blue)](https://www.typescriptlang.org/)
 [![Lerna](https://img.shields.io/badge/Lerna-6.6.2-orange)](https://lerna.js.org/)
@@ -48,7 +48,7 @@ Experience the package in action with our interactive demo:
 
 ```bash
 # Clone the repository
-git clone https://github.com/hedgewizard-dev/hw-utils.git
+git clone https://github.com/troyciesco/hw-utils.git
 cd hw-utils
 
 # Install dependencies
@@ -71,7 +71,7 @@ The demo will display multiple random dinosaur facts and showcase the package fu
 
 ```bash
 # Clone the repository
-git clone https://github.com/hedgewizard-dev/hw-utils.git
+git clone https://github.com/troyciesco/hw-utils.git
 cd hw-utils
 
 # Install dependencies and bootstrap packages
@@ -213,7 +213,7 @@ Contributions are welcome! Here's how to get started:
 
 1. **Clone and install**:
    ```bash
-   git clone https://github.com/hedgewizard-dev/hw-utils.git
+   git clone https://github.com/troyciesco/hw-utils.git
    cd hw-utils
    yarn setup
    ```

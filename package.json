@@ -1,7 +1,7 @@
 {
   "name": "hw-utils",
-  "version": "1.0.0",
-  "description": "Utility packages for Hedgewizard.dev",
+  "version": "0.1.0",
+  "description": "Utility packages for hedgewizard.dev",
   "private": true,
   "workspaces": [
     "packages/*"
@@ -44,14 +44,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hedgewizard-dev/hw-utils.git"
+    "url": "git+https://github.com/troyciesco/hw-utils.git"
   },
   "author": "Hedgewizard.dev",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/hedgewizard-dev/hw-utils/issues"
+    "url": "https://github.com/troyciesco/hw-utils/issues"
   },
-  "homepage": "https://github.com/hedgewizard-dev/hw-utils#readme",
+  "homepage": "https://github.com/troyciesco/hw-utils#readme",
   "lint-staged": {
     "packages/*/src/**/*.{ts,js}": [
       "eslint --fix",
