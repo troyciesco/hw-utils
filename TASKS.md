@@ -2,6 +2,11 @@
 
 > Tick each box (→ `[x]`) in the same commit that completes the work.  
 > **Do not tick Section 6 until instructed.**
+> 
+> **Requirements:**
+> - Lerna version 6.6.2 (exact)
+> - Use TypeScript + Vitest (not Jest)
+> - Keep commit messages short and concise
 
 ## 1 Repo scaffold
 - [x] 1.1 Initialise new git repo **hw-utils**
@@ -12,14 +17,14 @@
 ## 2 Package `@hw-utils/random-facts`
 - [ ] 2.1 Create `packages/random-facts/`
 - [ ] 2.2 Add package-level `package.json`
-- [ ] 2.3 Implement `src/index.js` exporting `getFact()`
-- [ ] 2.4 Add `src/facts.js` with **10** dinosaur facts
-- [ ] 2.5 Write Jest unit tests
+- [ ] 2.3 Implement `src/index.ts` exporting `getFact()`
+- [ ] 2.4 Add `src/facts.ts` with **10** dinosaur facts
+- [ ] 2.5 Write Vitest unit tests
 - [ ] 2.6 Add `README.md` for the package
 
 ## 3 Tooling & Quality
 - [ ] 3.1 Add ESLint (airbnb-base) + Prettier + lint-staged
-- [ ] 3.2 Add Jest config at root
+- [ ] 3.2 Add Vitest config at root + TypeScript
 - [ ] 3.3 Add `.editorconfig`
 
 ## 4 Automation
@@ -32,4 +37,4 @@
 
 ## 6 Publish & Demo — **DEFERRED**
 - [ ] 6.1 Prepare `npm publish` command for `@hw-utils/random-facts` (do not run)
-- [ ] 6.2 Add `examples/quick-demo.js` logging a random fact 
+- [ ] 6.2 Add `examples/quick-demo.ts` logging a random fact 
