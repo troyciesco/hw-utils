@@ -17,7 +17,8 @@
     "format:check": "prettier --check \"packages/*/src/**/*.{ts,js,json,md}\"",
     "clean": "lerna clean",
     "setup": "yarn install && yarn bootstrap",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "ship": "lerna publish"
   },
   "devDependencies": {
     "@types/node": "^20.0.0",
