@@ -6,4 +6,4 @@ import { facts } from './facts';
  */
 export function getFact(): string {
   return facts[Math.floor(Math.random() * facts.length)];
-} 
+}
