@@ -9,13 +9,31 @@
   "scripts": {
     "bootstrap": "lerna bootstrap --hoist",
     "build": "lerna run build",
-    "test": "lerna run test",
-    "lint": "lerna run lint",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "eslint packages/*/src --ext .ts",
+    "lint:fix": "eslint packages/*/src --ext .ts --fix",
+    "format": "prettier --write \"packages/*/src/**/*.{ts,js,json,md}\"",
+    "format:check": "prettier --check \"packages/*/src/**/*.{ts,js,json,md}\"",
     "clean": "lerna clean",
-    "setup": "yarn install && yarn bootstrap"
+    "setup": "yarn install && yarn bootstrap",
+    "prepare": "husky install"
   },
   "devDependencies": {
-    "lerna": "6.6.2"
+    "@types/node": "^20.0.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "eslint": "^8.0.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-import": "^2.29.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "husky": "^8.0.0",
+    "lerna": "6.6.2",
+    "lint-staged": "^15.0.0",
+    "prettier": "^3.0.0",
+    "typescript": "^5.0.0",
+    "vitest": "^1.0.0"
   },
   "engines": {
     "node": ">=18.0.0",
@@ -30,5 +48,14 @@
   "bugs": {
     "url": "https://github.com/hedgewizard-dev/hw-utils/issues"
   },
-  "homepage": "https://github.com/hedgewizard-dev/hw-utils#readme"
+  "homepage": "https://github.com/hedgewizard-dev/hw-utils#readme",
+  "lint-staged": {
+    "packages/*/src/**/*.{ts,js}": [
+      "eslint --fix",
+      "prettier --write"
+    ],
+    "packages/*/src/**/*.{json,md}": [
+      "prettier --write"
+    ]
+  }
 }
