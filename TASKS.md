@@ -4,7 +4,7 @@
 > **Do not tick Section 6 until instructed.**
 
 ## 1 Repo scaffold
-- [ ] 1.1 Initialise new git repo **hw-utils**
+- [x] 1.1 Initialise new git repo **hw-utils**
 - [ ] 1.2 Add MIT LICENSE and `.gitignore`
 - [ ] 1.3 Add root `package.json`, `lerna.json`, `.npmrc`, `README.md`
 - [ ] 1.4 Enable Yarn Workspaces + Lerna (independent mode)
