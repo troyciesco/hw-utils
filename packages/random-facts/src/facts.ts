@@ -9,4 +9,5 @@ export const facts: string[] = [
   'Velociraptors were actually only about the size of a turkey, much smaller than depicted in movies.',
   'Dinosaurs could not roar like in the movies - they likely made sounds more similar to birds or crocodiles.',
   "The name 'dinosaur' means 'terrible lizard' in Greek, though dinosaurs were not actually lizards.",
+  'Some dinosaurs, like the Maiasaura, are believed to have cared for their young in nests, showing complex social behavior.',
 ];
