@@ -6,9 +6,6 @@
     "packages/*"
   ],
   "command": {
-    "version": {
-      "allowBranch": "*"
-    },
     "publish": {
       "allowBranch": "main",
       "conventionalCommits": true,
