@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.3.0](https://github.com/troyciesco/hw-utils/compare/@hedgewizard.dev/random-facts@0.2.0...@hedgewizard.dev/random-facts@0.3.0) (2025-07-09)
+
+
+### Features
+
+* asteroid fact ([ea296bc](https://github.com/troyciesco/hw-utils/commit/ea296bc0def566322113aa2c6553804e3679c915))
+
+
+
+
+
 # [0.2.0](https://github.com/troyciesco/hw-utils/compare/@hedgewizard.dev/random-facts@0.1.0...@hedgewizard.dev/random-facts@0.2.0) (2025-07-09)
 
 
