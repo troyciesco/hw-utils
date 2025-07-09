@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.2](https://github.com/troyciesco/hw-utils/compare/@hedgewizard.dev/random-facts@0.0.1...@hedgewizard.dev/random-facts@0.0.2) (2025-07-09)
+
+**Note:** Version bump only for package @hedgewizard.dev/random-facts
+
 ## 0.0.1 (2025-07-09)
 
 ### Bug Fixes
