@@ -10,4 +10,5 @@ export const facts: string[] = [
   'Dinosaurs could not roar like in the movies - they likely made sounds more similar to birds or crocodiles.',
   "The name 'dinosaur' means 'terrible lizard' in Greek, though dinosaurs were not actually lizards.",
   'Some dinosaurs, like the Maiasaura, are believed to have cared for their young in nests, showing complex social behavior.',
+  'Non-avian maniraptoran dinosaurs (like Velociraptor and its kin) possessed uncinate processes on their ribs—bony projections similar to those in modern diving birds—which enhanced chest-pumping efficiency and indicate they had high-capacity, bird-like respiratory systems. These structures imply sustained, aerobic activity and support the idea that these dinosaurs were far more active—and possibly warm-blooded—than cold-blooded reptiles.',
 ];
