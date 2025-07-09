@@ -16,7 +16,7 @@
     "allowSyntheticDefaultImports": true,
     "baseUrl": ".",
     "paths": {
-      "@hw-utils/random-facts": [
+      "@hedgewizard.dev/random-facts": [
         "./packages/random-facts/src"
       ]
     }

@@ -1,6 +1,6 @@
-# @hw-utils/random-facts
+# @hedgewizard.dev/random-facts
 
-[![npm version](https://badge.fury.io/js/%40hw-utils%2Frandom-facts.svg)](https://badge.fury.io/js/%40hw-utils%2Frandom-facts)
+[![npm version](https://badge.fury.io/js/%40hedgewizard.dev%2Frandom-facts.svg)](https://badge.fury.io/js/%40hedgewizard.dev%2Frandom-facts)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 A simple utility package that provides random dinosaur facts.
@@ -8,13 +8,13 @@ A simple utility package that provides random dinosaur facts.
 ## Installation
 
 ```bash
-npm install @hw-utils/random-facts
+npm install @hedgewizard.dev/random-facts
 ```
 
 ## Usage
 
 ```typescript
-import { getFact } from '@hw-utils/random-facts';
+import { getFact } from '@hedgewizard.dev/random-facts';
 
 // Get a random dinosaur fact
 const fact = getFact();
@@ -57,4 +57,4 @@ MIT © [Hedgewizard.dev](https://hedgewizard.dev)
 
 ## Contributing
 
-This package is part of the [hw-utils](https://github.com/hedgewizard-dev/hw-utils) monorepo. Please see the main repository for contribution guidelines. 
+This package is part of the [hw-utils](https://github.com/troyciesco/hw-utils) monorepo. Please see the main repository for contribution guidelines. 

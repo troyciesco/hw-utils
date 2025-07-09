@@ -13,22 +13,22 @@ A collection of utility packages for [Hedgewizard.dev](https://hedgewizard.dev),
 
 | Package | Version | Description | Status |
 |---------|---------|-------------|--------|
-| [@hw-utils/random-facts](./packages/random-facts) | ![npm](https://img.shields.io/npm/v/@hw-utils/random-facts) | Random dinosaur facts generator | ✅ Ready |
+| [@hedgewizard.dev/random-facts](./packages/random-facts) | ![npm](https://img.shields.io/npm/v/@hedgewizard.dev/random-facts) | Random dinosaur facts generator | ✅ Ready |
 
 ## 🚀 Quick Start
 
 ```bash
 # Install a package
-npm install @hw-utils/random-facts
+npm install @hedgewizard.dev/random-facts
 
 # Or with yarn
-yarn add @hw-utils/random-facts
+yarn add @hedgewizard.dev/random-facts
 ```
 
 ### Usage Example
 
 ```typescript
-import { getFact } from '@hw-utils/random-facts';
+import { getFact } from '@hedgewizard.dev/random-facts';
 
 // Get a random dinosaur fact
 const fact = getFact();
@@ -108,7 +108,7 @@ hw-utils/
 ├── .github/
 │   └── workflows/             # GitHub Actions CI/CD
 ├── packages/
-│   └── random-facts/          # @hw-utils/random-facts package
+│   └── random-facts/          # @hedgewizard.dev/random-facts package
 │       ├── src/
 │       │   ├── index.ts       # Main export
 │       │   └── facts.ts       # Dinosaur facts data
@@ -175,7 +175,7 @@ To add a new utility package to the monorepo:
 2. **Initialize package.json**:
    ```json
    {
-     "name": "@hw-utils/your-package-name",
+     "name": "@hedgewizard.dev/your-package-name",
      "version": "1.0.0",
      "description": "Your package description",
      "main": "dist/index.js",

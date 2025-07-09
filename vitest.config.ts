@@ -18,7 +18,7 @@ export default defineConfig({
   },
   resolve: {
     alias: {
-      '@hw-utils/random-facts': './packages/random-facts/src',
+      '@hedgewizard.dev/random-facts': './packages/random-facts/src',
     },
   },
 }); 

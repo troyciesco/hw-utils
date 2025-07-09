@@ -1,6 +1,6 @@
 {
-  "name": "@hw-utils/random-facts",
-  "version": "1.0.0",
+  "name": "@hedgewizard.dev/random-facts",
+  "version": "0.1.0",
   "description": "Random dinosaur facts generator",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -20,7 +20,7 @@
     "random",
     "utility"
   ],
-  "author": "Hedgewizard.dev",
+  "author": "Troy Ciesco",
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^20.0.0",
@@ -29,11 +29,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hedgewizard-dev/hw-utils.git",
+    "url": "git+https://github.com/troyciesco/hw-utils.git",
     "directory": "packages/random-facts"
   },
   "bugs": {
-    "url": "https://github.com/hedgewizard-dev/hw-utils/issues"
+    "url": "https://github.com/troyciesco/hw-utils/issues"
   },
-  "homepage": "https://github.com/hedgewizard-dev/hw-utils/tree/main/packages/random-facts#readme"
+  "homepage": "https://github.com/troyciesco/hw-utils/tree/main/packages/random-facts#readme"
 }

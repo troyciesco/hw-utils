@@ -14,7 +14,7 @@
 - [x] 1.3 Add root `package.json`, `lerna.json`, `.npmrc`, `README.md`
 - [x] 1.4 Enable Yarn Workspaces + Lerna (independent mode)
 
-## 2 Package `@hw-utils/random-facts`
+## 2 Package `@hedgewizard.dev/random-facts`
 - [x] 2.1 Create `packages/random-facts/`
 - [x] 2.2 Add package-level `package.json`
 - [x] 2.3 Implement `src/index.ts` exporting `getFact()`
@@ -36,5 +36,5 @@
 - [x] 5.2 Add build & coverage badge placeholders
 
 ## 6 Publish & Demo — **DEFERRED**
-- [x] 6.1 Prepare `lerna publish` command for `@hw-utils/random-facts` (do not run). should be `yarn ship` in package.json
+- [x] 6.1 Prepare `lerna publish` command for `@hedgewizard.dev/random-facts` (do not run). should be `yarn ship` in package.json
 - [x] 6.2 Add `examples/quick-demo.ts` logging a random fact 

@@ -2,17 +2,17 @@
 
 /**
  * Quick Demo - HW-Utils Random Facts
- * 
- * This script demonstrates the @hw-utils/random-facts package
+ *
+ * This script demonstrates the @hedgewizard.dev/random-facts package
  * by logging random dinosaur facts to the console.
- * 
+ *
  * Usage:
  *   yarn demo
  *   # or
  *   npx ts-node examples/quick-demo.ts
  */
 
-import { getFact } from '@hw-utils/random-facts';
+import { getFact } from '@hedgewizard.dev/random-facts';
 
 console.log('🦕 HW-Utils Random Facts Demo\n');
 console.log('═'.repeat(50));
@@ -30,5 +30,5 @@ for (let i = 1; i <= 3; i++) {
 console.log('\n' + '═'.repeat(50));
 console.log('✨ Demo complete! Each fact is randomly selected.');
 console.log('🔄 Run again to see different facts.');
-console.log('\n📦 Package: @hw-utils/random-facts');
-console.log('🌐 Repository: https://github.com/hedgewizard-dev/hw-utils'); 
+console.log('\n📦 Package: @hedgewizard.dev/random-facts');
+console.log('🌐 Repository: https://github.com/troyciesco/hw-utils'); 
