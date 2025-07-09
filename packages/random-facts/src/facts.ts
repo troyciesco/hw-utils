@@ -13,4 +13,5 @@ export const facts: string[] = [
   'Non-avian maniraptoran dinosaurs (like Velociraptor and its kin) possessed uncinate processes on their ribs—bony projections similar to those in modern diving birds—which enhanced chest-pumping efficiency and indicate they had high-capacity, bird-like respiratory systems. These structures imply sustained, aerobic activity and support the idea that these dinosaurs were far more active—and possibly warm-blooded—than cold-blooded reptiles.',
   'The first dinosaur fossils were scientifically described in the early 19th century, but many ancient cultures discovered dinosaur bones and interpreted them as the remains of dragons or mythical creatures.',
   'Some dinosaurs, such as the Ankylosaurus, had armored plates and clubbed tails that served as powerful defenses against predators.',
+  'The Chicxulub asteroid impact that ended the reign of the dinosaurs released energy equivalent to over 1 billion atomic bombs, triggered global wildfires, and created a tsunami over a mile high—yet some small, feathered dinosaurs survived and evolved into the birds we see today.',
 ];
